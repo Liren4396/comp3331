@@ -1,0 +1,69 @@
+Exercise 1:
+    1. IPv4 address: 65.8.134.9、65.8.134.89、65.8.134.70 和 65.8.134.47
+    what is the reason for having several IP addresses as an output?
+        This is similar to the Frequency Division Multiplexing mentioned in Lecture1
+        (FDM) has the same concept of resource allocation and utilization.
+        The output of multiple IP addresses is usually because the website 
+        uses load balancing technology. Load balancing technology is used to 
+        distribute network traffic to different servers to improve performance, 
+        reliability, and scalability.
+    2.The name of IP address 127.0.0.1 is localhost. 
+    What's special about this IP address is that it is the local loopback 
+    address used to route network traffic back to the local computer. 
+
+Exercise 2:
+    www.google.co.uk        Yes. We Can Ping.
+    www.columbia.edu        Yes. We Can Ping.
+    www.wikipedia.org       Yes. We Can Ping.
+    ec.ho                   No, we cant ping because Host/Web address does not exist.
+    hhh.gs                  Yes. We Can Ping.
+    defence.gov.au          No, we cant ping because firewall doesnt allow us to access.
+    yes.no                  Yes. We Can Ping.
+    一.一.一.一              No, we cant ping because Host/Web address is https://one.one.one.one/ (we can acess from web) not 一.一.一.一
+    theguardian.com         Yes. We Can Ping.
+    xn--i-7iq.ws            Yes. We Can Ping.
+
+Exercise 3:
+    1. 
+        1.There are 21 routers between your workstation and usi.ch.
+        There are 5 routers along the way that are part of the UNSW network. (we can use whois host command to check).
+        2. ae2.mx1.lon2.uk.geant.net (62.40.98.65) is the first router outside AU.
+        3. ae2.mx1.lon2.uk.geant.net (62.40.98.65) is the first router in Europe.
+    2.  1.138.44.5.0
+        Is't Australian Academic and Research Network，AARNet 's IP address
+        2. The relationship between hop count and physical distance is not a simple proportional relationship
+        Network topology, routing policies, traffic optimization and other factors will affect path selection, 
+        so the relationship between hop count and physical distance is not linear. In some cases, 
+        due to network optimization or other factors, the hop count may decrease rather than increase, 
+        even as the physical distance increases.
+    3.  
+        1. www.linkwan.com  www.telstra.net
+        2. Both forward and reverse paths go through the same router node 138.44.5.0
+        3. The same IP address 138.44.5.0 was observed on both forward and reverse paths.
+        This indicates that packets pass through the same router nodes as they enter and leave your network.
+
+Exercise 4:
+    1.  Physical distance from UNSW to Charles Darwin University, Darwin, Australia: 375.64 km 233.41 miles
+    time cost is : distance / speed of light = 375640 / (3*10^8) = 1.2521ms
+        Physical distance from UNSW to Universidade de São Paulo (USP),Sao Paulo,Brazil: 13490.89 km 8382.85 miles
+    time cost is : distance / speed of light = 13490890 / (3*10^8) = 44.963ms
+        Physical distance from UNSW to The University of Edinburgh - Edinburgh, Scotland, UK: 16880.66 km10489.15 miles
+    time cost is : distance / speed of light = 16880660 / (3*10^-8) = 56.269ms
+
+    2.  Figure_1.png in same directory.
+
+    3.  Network congestion: During times of high network load, packets may take longer 
+        to reach their destination and return, resulting in increased latency.
+
+        Network routing selection: Data packets may pass through multiple routing nodes 
+        during transmission. If the selected routing path is long or there is congestion, 
+        the transmission time of the data packet will be increased.
+    4.  Delays to destinations often vary over time.
+        Network congestion: When traffic in a network increases, such as during peak hours or during network outages, 
+        packets may experience longer wait times to reach their destination.
+
+        Routing: Routers in a network may choose different paths to transmit packets based 
+        on current network conditions. Some paths may be more efficient than others, while others may cause 
+        increased latency.
+    5.  depend on the packet size: Transmission Delay  Processing Delay
+        not depend on the packet size: Propagation Delay  Queueing Delay

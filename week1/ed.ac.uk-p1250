@@ -1,0 +1,10 @@
+PING ed.ac.uk (129.215.97.21) 1222(1250) bytes of data.
+1230 bytes from cromarty.ed.ac.uk (129.215.97.21): icmp_seq=1 ttl=109 time=270 ms
+1230 bytes from cromarty.ed.ac.uk (129.215.97.21): icmp_seq=2 ttl=109 time=270 ms
+1230 bytes from cromarty.ed.ac.uk (129.215.97.21): icmp_seq=3 ttl=109 time=270 ms
+1230 bytes from cromarty.ed.ac.uk (129.215.97.21): icmp_seq=4 ttl=109 time=270 ms
+1230 bytes from cromarty.ed.ac.uk (129.215.97.21): icmp_seq=5 ttl=109 time=270 ms
+
+--- ed.ac.uk ping statistics ---
+50 packets transmitted, 5 received, 90% packet loss, time 50046ms
+rtt min/avg/max/mdev = 269.535/269.599/269.710/0.064 ms
